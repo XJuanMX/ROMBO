@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Libre Bodoni', serif;
+}
+
+header{
+    height: 100vh;
+    background-image: url(../img/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head{
+    font-size:larger;
+    text-align: center;
+    padding: 0;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.head h1{
+    color: rgb(245, 233, 65);
+}
+
+.container{
+    align-items:center ;
+}
+
+.cr{
+    margin-left: 80px;
+    background-image: url(../img/senderismo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.cr h5{
+    padding-top: 100px;
+}
+
+.cr1{
+    margin-left: 80px;
+    background-image: url(../img/canotaje.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.cr1 h5{
+    padding-top: 100px;
+}
+
+.cr2{
+    margin-left: 80px;
+    padding: 10px, 10px;
+    background-image: url(../img/jonathan-forage-1azAjl8FTnU-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.cr2 h5{
+    padding-top: 100px;
+}
+
+.titulo{
+    color: rgb(245, 233, 65);
+    font-size:larger;
+    top: 50%;
+    left: 50%;
+}
+
+.bru{
+    width: 60px;
+}
+
+button.btn{
+    font-size: large;
+    background: rgb(245, 233, 65);
+    color: rgb(153, 153, 153);
+}
+
+.img{
+    max-width: 200px;
+}
+main #destino{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: center;
+    color: #fff;
+    background-image: url('../img/bg-destinos.png');
+    background-size: cover;
+}
+
+#destino h2{
+    color: rgb(245, 233, 65);
+}
+
+#contacto{
+    background: rgb(245, 233, 65);
+}
+
+footer{
+    background: #000000;
+    padding: 10px 60px;
+    padding-bottom: 0.1px;
+}
+
+.ft{
+    background: black;
+    color: #fff;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
